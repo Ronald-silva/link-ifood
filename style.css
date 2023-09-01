@@ -1,0 +1,163 @@
+body{
+    background-color:dimgray;
+    font-family:sans-serif;
+}
+.container{
+    width: 700px;
+    margin-left: 15%;
+}
+p{
+    color: white;
+}
+h3{
+    color: white; 
+}
+.cabecalho{
+    width: 60px; 
+    border-radius: 25px;
+}
+#ico-cab{
+    text-align: center;
+}
+#bt-pont{
+    text-align: right;
+    
+}
+
+#bt-pont button{
+    border-radius: 50%;
+    border:none;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+}
+#descricao{
+    text-align: center;
+}
+.bot{
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+}
+.img-cap{
+    margin-left: 10px;
+    margin-top: 7px;
+    width: 35px;
+    height: 35px;
+    
+}
+.onelist{
+    display: flex;
+    justify-content:space-between;
+    background-color: red;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+
+}
+.onelist img{
+   border-radius: 40%;
+}
+.onelist button{
+    
+    margin-top: 1px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    
+}
+.twolist{
+    display: flex;
+    justify-content:space-between;
+    background-color: red;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+   
+}
+.twolist img{
+    
+    border-radius: 40%;
+    
+}
+.twolist button{
+    
+    margin-top: 1px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.threelist{
+    display: flex;
+    justify-content:space-between;
+    background-color: red;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    
+}
+.threelist img{
+    
+    border-radius: 40%;
+}
+.threelist button{
+    
+    margin-top: 1px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.fourlist{
+    display: flex;
+    justify-content:space-between;
+    background-color: red;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    
+}
+.fourlist img{
+    
+    border-radius: 40%;
+}
+.fourlist button{
+    
+    margin-top: 1px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.fivelist{
+    display: flex;
+    justify-content:space-between;
+    background-color: red;
+    border-radius: 40px;
+    border: 3px solid black;
+    
+    
+}
+.fivelist img{
+    border-radius: 40%;
+}
+.fivelist button{
+
+    margin-top: 1px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.rodape{
+    margin-left: 290px;
+    
+}
+.linc{
+    text-decoration: none;
+    color: white;
+}
+
+
