@@ -5,25 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRANJA PORTUGAL</title>
     <link rel="shortcut icon" href="img/capacete.png" type="image/x-icon">
-</head>
-<body>
-    <div>
-        <img src="img/capacete.png" alt=""> 
-        <p>Almoço</p>
-        <button class="bot">...</button>
-      </div>
+    <style>
+    body{
+        background-color:dimgray;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .container{
+        font-family:sans-serif;
+        margin-top: 30px;
+        
+    }
+    main{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    h3, p{
+        color: white; 
+    }
+    a{
+        margin-top: 12px;
+    }
+    .bot{
+        background-color: red;
+        color: white;
+        margin-right: 7px;
+        padding-bottom: 8px;
+        border-radius: 50%;
+        border: none;
+        width: 2rem;
+         
+    }
+    .linc{
+        text-decoration: none;
+        color: white;
+    }
+    .cabecalho{
+        width: 60px; 
+        border-radius: 25px;
+    }
+    #ico-cab, #descricao{
+        text-align: center;
+        text-align: center;
+    }
     
-      <div>
-        <img src="img/capacete.png" alt="">
-        <p>Tarde</p>
-        <button class="bot">...</button>
-      </div>
-      <div>
-        <img src="img/capacete.png" alt="">
-        <p>Jantar</p>
-        <button class="bot">...</button>
-      </div>
+    .img-cap{
+        margin-left: 10px;
+        margin-top: 3px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        
+    }
+    .list{
+        display: flex;
+        justify-content:space-between;
+        background-color: red;
+        border-radius: 40px;
+        margin-bottom: 10px;
+        padding: 8px;
+        border: 3px solid black;
+    }
+    .list:hover{
+        background-color: darkred;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="container">
+      <header>
+        
     
+        <div id="ico-cab">
+          <img class="cabecalho" src="img/capacete.png" alt="">
+        </div>
+        
+        <div id="descricao">
+          <h3>GRANJA PORTUGAL</h3>
+          <p>Recomendamos chegar no perimetro 10<br> minutos antes do horario que voce escolheu!</p>
+        </div>
+      </header>
+      <main>
+      <div class="list">
+        <img class="img-cap" src="img/capacete.png" alt=""> 
+        <a class="linc" href="https://docs.google.com/forms/d/1_i1yqFfAXCTzGOSXGCsbz2YK4VeopOsZJsoNrVAbmBQ/closedform" target="_blank">ALMOCO</a>
+        <button class="bot">...</button>
+      </div>
+      <div class="list">
+        <img class="img-cap" src="img/capacete.png" alt="">
+        <a class="linc" href="https://docs.google.com/forms/d/1_mh_O5DFjsiKkMJjVJtCD9f0SUvnpN76jri9IUKj8lI/closedform" target="_blank">TARDE</a>
+        <button class="bot">...</button>
+      </div>
+      <div class="list">
+        <img class="img-cap" src="img/capacete.png" alt="">
+        <a class="linc" href="https://docs.google.com/forms/d/1SV2RzaPLRj-2l28ZR1KS9IeIxub2uEgxOlS9PJ0aRhU/closedform" target="_blank">JANTAR</a>
+        <button class="bot">...</button>
+      </div>
+      </main>  
+    </div>  
     
 </body>
 </html>
