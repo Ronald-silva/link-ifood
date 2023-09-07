@@ -38,6 +38,9 @@ h3, p{
 a{
     margin-top: 10px;
 }
+a:hover{
+    color:dimgray;
+}
 .list{
     display: flex;
     justify-content:space-between;
@@ -49,7 +52,7 @@ a{
 }
 .list:hover{
     background-color: darkred;
-    color: blue;
+    
     
     
 }
